@@ -49,7 +49,7 @@ int main(int argc, char const *argv[]) {
   a->right = c;
   b->left = d;
   c->right = e;
-  print<node>(a); cout << endl;
+  print(a); cout << endl;
   find_wrong_pairs(a,numeric_limits<int>::min(),numeric_limits<int>::max());
   delete a;
   return 0;
